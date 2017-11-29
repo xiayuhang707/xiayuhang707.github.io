@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#app{
+    width: 300px;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+
+}
+#app header{
+    margin-top: 30px;
+}
+ul{
+    margin-top: 90px;
+}
+header::after{
+    display:table;
+    conent:'';
+    clear:both;
+}
+header input,
+header button{
+    float: left;
+    height: 30px;
+    border:1px solid #ccc;
+}
+header input{
+    width: 80%;
+    outline: none;
+    border-right: none;
+    padding: 5px;
+}
+header button{
+    width: 20%;
+}
+button{
+    cursor:pointer;
+}
+
+header button:hover{
+    background: #ccc;
+}
+
+ul{
+
+}
+ul::after{
+    display: table;
+    content: '';
+    clear:both;
+}
+ul li{
+    background: #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+ul span,
+ul button{
+    float: right;
+    display: block;
+}
+ul button{
+
+}
+
+
