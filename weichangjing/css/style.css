@@ -76,11 +76,12 @@ body {
 .s1 .main img:nth-of-type(2){
     width: 320px;
     height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .s1 .main p{
     background: url("../img/9.png");
     margin:auto;
+    background-size:100%;
     font-weight: bold;
     width: 210px;
     border-radius: 10px;
