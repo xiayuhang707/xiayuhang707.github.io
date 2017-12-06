@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb204e0-f5a0-4ab8-8a15-5b267ac3adea" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/bj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/img/musicIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/素材/效果图/Thumbs.db" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="xiayuhang707.github.io.iws" />
@@ -26,8 +46,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17260274">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.5109589">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -58,8 +78,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="178" />
+    <option name="x" value="180" />
+    <option name="y" value="43" />
     <option name="width" value="1302" />
     <option name="height" value="920" />
   </component>
@@ -194,7 +214,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="178" width="1302" height="920" extended-state="1" />
+    <frame x="180" y="43" width="1302" height="920" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -231,10 +251,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Vue/vue-demo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23013699">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17260274">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5109589">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
