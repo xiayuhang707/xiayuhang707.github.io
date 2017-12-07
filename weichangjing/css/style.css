@@ -85,19 +85,34 @@ body {
 .s1 .main .img9{
     background: url("../img/9.png");
     margin:auto;
-    background-size:100%;
+    background-size:contain;
     font-weight: bold;
     width: 210px;
     height: 24px;
-    line-height: 1.6;
+    line-height: 25px;
     border-radius: 10px;
 }
 .s1 .footer{
     color:#00c1a0;
-    margin-bottom: 0;
-    padding-top: 470px;
-    /*background: url("../img/10.png");*/
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
 }
 .s1 .footer p:nth-of-type(1){
-    font-weight: bold;
+    font-weight:bold;
+}
+.s1 .footer p:nth-of-type(2){
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.s1 .footer img{
+    position: absolute;
+    height: 70px;
+}
+.s1 .footer img:nth-of-type(1){
+    left: -44px;
+}
+.s1 .footer img:nth-of-type(2){
+    height: 70px;
+    left:-80px;
 }
