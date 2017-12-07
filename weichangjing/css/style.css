@@ -34,7 +34,7 @@ body {
 }
 
 /*s1第一屏样式*/
-.s1{
+.s1,.s2{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -117,70 +117,109 @@ body {
 }
 /*第二屏代码*/
 
-.s2{
-    background: url("../img/bj.png");
-    height: 100%;
-    color:#00f8cc;
-
+.s2 {
+    color: #00f8ca;
 }
-.s2 h2{
-    padding-top: 15%;
+
+.s2 h2 {
+    font-size: 26px;
     position: relative;
+    top: 12%;
 }
-.s2 h2:before{
-    position: absolute;
+
+.s2 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s2 h2::before,
+.s2 h2::after {
+    content: "";
     width: 80px;
-    background: url("../img/14.png");
-    left: 0;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s2 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s2 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
     top: 0;
 }
-.s2 h2:after{
+
+.s2 div {
     position: absolute;
-    width: 80px;
-    background: url("../img/13.png");
-    background-size:contain;
-    left: 0;
-    top: 0;
+    top: 25%;
+    width: 80%;
+    height: 55%;
+    left: 50%;
+    margin-left: -40%;
+
 }
-.s2 img{
+
+.s2 div img {
     width: 100%;
-    padding:0 10%;
-    padding-top: 8%;
-    background-size:contain;
-    height: 490px;
-}
-.s2 div{
     position: absolute;
-    top: 20%;
+    left: 0;
+}
+
+.s2 div p {
     text-align: left;
-    padding:0 15%;
-    font-size: 17px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
 }
-.s2 div p{
-    padding-top: 10px;
+
+.s2 div p:nth-of-type(1) {
+    padding-top: 20px;
 }
-/*.s2 .banner{*/
 
-    /*padding-top: 70px;*/
-    /*margin-left: 10px;*/
-/*}*/
-/*.s2 .banner li{*/
-    /*float: left;*/
-    /*list-style: none;*/
-/*}*/
-/*.s2 .banner li img{*/
-    /*margin-left: 20px;*/
-/*}*/
-
-/*.s2 .banner li h2{*/
-    /*text-align: center;*/
-    /*margin-left: 20px;*/
-/*}*/
-/*.s2 .banner::after{*/
-    /*display: table;*/
-    /*content: '';*/
-    /*clear:both;*/
-/*}*/
-/*.s2 .banner p{*/
-    /*margin-top: 49px;*/
-/*}*/
+.s2 div span {
+    /*渐变色*/
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -60px;
+}
+.s2 .footer{
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+}
+.s2 .footer img{
+    width: 100%;
+    top: 430px;
+    height: 70px;
+    width: 470px;
+}
+.s2 .footer img:nth-of-type(1){
+    left: -21px;
+}
+.s2 .footer img:nth-of-type(2){
+    left: -80px;
+}
