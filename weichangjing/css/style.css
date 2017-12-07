@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -32,7 +37,6 @@ body {
 .s1{
     background: url("../img/bj.png");
     height: 100%;
-
     position: relative;
 }
 .s1 .header img{
@@ -78,19 +82,21 @@ body {
     height: 80px;
     margin-bottom: 25px;
 }
-.s1 .main p{
+.s1 .main .img9{
     background: url("../img/9.png");
     margin:auto;
     background-size:100%;
     font-weight: bold;
     width: 210px;
+    height: 24px;
+    line-height: 1.6;
     border-radius: 10px;
-
 }
 .s1 .footer{
     color:#00c1a0;
     margin-bottom: 0;
     padding-top: 470px;
+    /*background: url("../img/10.png");*/
 }
 .s1 .footer p:nth-of-type(1){
     font-weight: bold;
