@@ -230,3 +230,68 @@ body {
 .s2 .footer img:nth-of-type(2){
     left: -80px;
 }
+/*第三屏代码    s3*/
+.s3{
+    background: url("../img/bj.png");
+    height: 100%;
+    color: #00f8ca;
+    position: relative;
+}
+.s3 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+.s3 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 8px;
+}
+
+.s3 h2::before,
+.s3 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s3 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s3 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+
+
+
+
+.s3 .footer{
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+}
+.s3 .footer img{
+    width: 100%;
+    top: 430px;
+    height: 70px;
+    width: 470px;
+}
+.s3 .footer img:nth-of-type(1){
+    left: -21px;
+}
+.s3 .footer img:nth-of-type(2){
+    left: -80px;
+}
