@@ -16,7 +16,7 @@ var swiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination',
         //小圆点是否可以点击
-        clickable: true,
+        clickable: true
     },
     //加入动画效果
     on:{
@@ -29,3 +29,29 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+//背景音乐
+var mp3=document.querySelector("#mp3");
+var mp3btn=document.querySelector("#mp3btn");
+
+//暂停音乐按钮
+//mp3Btn.style.animationPlayState = 'paused'
+//旋转音乐按钮
+//mp3Btn.style.animationPlayState = 'running'
+
+mp3btn.onclick = function () {
+    if (mp3.paused) {
+        //开始旋转
+        mp3btn.style.animationPlayState = 'running';
+        //开始音频
+        mp3.play();
+    } else {
+        //暂停旋转
+        mp3btn.style.animationPlayState = 'paused';
+        //暂停音频
+        mp3.pause();
+    }
+}
+
+
+
+
