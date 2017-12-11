@@ -262,19 +262,19 @@ body {
     left: -80px;
 }
 /*第三屏代码    s3*/
-.s3{
+.s3,.s4,.s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
     color: #00f8ca;
     position: relative;
 }
-.s3 h2 {
+.s3 h2,.s4 h2 {
     font-size: 26px;
     position: relative;
     top: 12%;
 }
 
-.s3 small {
+.s3 small,.s4 small {
     margin-top: 10px;
     display: block;
     font-size: 14px;
@@ -282,7 +282,8 @@ body {
 }
 
 .s3 h2::before,
-.s3 h2::after {
+.s3 h2::after,.s4 h2::before,
+.s4 h2::after {
     content: "";
     width: 80px;
     height: 20px;
@@ -290,14 +291,14 @@ body {
     position: absolute;
 }
 
-.s3 h2::before {
+.s3 h2::before,.s4 h2::before {
     background: url(../img/14.png);
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
 
-.s3 h2::after {
+.s3 h2::after,.s4 h2::after {
     background: url(../img/13.png);
     background-size: contain;
     margin-left: 66px;
@@ -350,6 +351,31 @@ body {
     letter-spacing: 1px;
     line-height: 26px;
 }
+
+.s3 .footer{
+    position: relative;
+}
+.s3 .footer img{
+    width: 100%;
+    height: 70px;
+    position:absolute;
+    z-index: 200;
+}
+.s3 .footer img:nth-of-type(1){
+    left: 38px;
+    bottom: -606px;
+    width: 470px;
+}
+.s3 .footer img:nth-of-type(2){
+    width: 515px;
+    left: -43px;
+    bottom: -606px;
+}
+
+
+
+
+
 
 .s3 .footer{
     position: relative;
