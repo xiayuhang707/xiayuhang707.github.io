@@ -556,10 +556,10 @@ body {
 
 
 
-.s4 .footer,.s5 .footer{
+.s4 .footer,.s5 .footer,.s6 .footer,.s7 .footer{
     position: relative;
 }
-.s4 .footer img,.s5 .footer img{
+.s4 .footer img,.s5 .footer img.s6 .footer img,.s7 .footer img{
     width: 100%;
     height: 70px;
     position:absolute;
