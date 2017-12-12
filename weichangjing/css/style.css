@@ -632,22 +632,34 @@ body {
 }
 .s6 .side{
     position: absolute;
-    top: 159px;
-    left: 29px;
-    height: 380px;
+    top: 163px;
+    left: 22px;
+    height: 416px;
 }
 .s6 .main5 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 17px;
+    padding: 2px 7px;
+    padding-bottom: 3px;
 }
 .s6 .main5 h3{
-    padding-top: 18px;
-    margin-bottom: 15px;
-    margin-left: -62px;
+    background: url("../img/22.png");
+    background-size:100%;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    text-align: left;
+    padding-left: 19px;
+    color:#000;
 }
 .s6 .main5 div{
     top: 0;
+}
+.s6 .main5 div div{
+    background: url("../img/23.png");
+    background-size:100%;
+    margin-bottom: 22px;
 }
 
 
