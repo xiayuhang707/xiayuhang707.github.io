@@ -17,24 +17,48 @@
         #app h1{
             margin-top: 50px;
         }
-        #app img{
+        #app ul::after{
+            display: table;
+            content: '';
+            clear: both;
+        }
+        #app ul li{
+            float: left;
+        }
+        #app ul li:nth-of-type(1) img{
             width: 147px;
             height: 203px;
             margin-top: 38px;
             margin-bottom: 10px;
         }
-        #app a{
+        #app ul li:nth-of-type(1) a{
             margin-left: 25px;
+        }
+        #app ul li:nth-of-type(2) img{
+
+         }
+        #app ul li:nth-of-type(2) a{
+
         }
     </style>
 </head>
 <body>
 <div id="app">
     <h1>Welcome to watch my project display</h1>
-    <img src="weichangjing/Design sketch/1.jpg" alt="">
-    <a href="weichangjing/index.html"><br>
-        年会邀请函
-    </a>
+    <ul>
+        <li>
+            <img src="weichangjing/Design sketch/1.jpg" alt="">
+            <a href="weichangjing/index.html"><br>
+                年会邀请函
+            </a>
+        </li>
+        <li>
+            <img src="" alt="">
+            <a href="">双选会</a>
+        </li>
+    </ul>
+
+
 </div>
 
 </body>
