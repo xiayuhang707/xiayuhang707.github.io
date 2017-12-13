@@ -13,13 +13,14 @@
 
     <!-- Demo styles -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Demo styles -->
     <style>
         html, body {
             position: relative;
             height: 100%;
         }
         body {
-            background: #fff;
             font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
             font-size: 14px;
             color:#000;
@@ -29,10 +30,46 @@
         .swiper-container {
             width: 100%;
             height: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
         .swiper-slide {
-            background-position: center;
-            background-size: cover;
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .swiper-button-prev{
+            position: absolute;
+            transform: rotate(90deg);
+            left: 46%;
+            bottom: 0;
+            top: 96%;
+            background-size: 20px 44px;
+            animation:btn 1.5s infinite linear;
+        }
+        @keyframes btn {
+            from{
+                top: 96%;
+                opacity: 1;
+            }
+            to{
+                top: 88%;
+                opacity: 0;
+            }
         }
     </style>
 </head>
@@ -40,42 +77,58 @@
 <!-- Swiper -->
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image:url(img/1.jpg)">
+        <div class="swiper-slide">
             <div class="p1">
-                1
+                <h1>盛邦升华“邀请函”</h1>
             </div>
         </div>
-        <div class="swiper-slide" style="background-image:url(img/2.jpg)">
+        <div class="swiper-slide">
             <div class="p2">
-                2
+                <h2>关于我们</h2>
+                <p>秦皇岛盛邦升华职业教育成立于2004年，目前已成为秦皇岛乃至华北地区办学历史较长、办学规模较大、办学条件较好，办学水平较高的专业IT人才职业教育培训机构。在业内具有广泛的影响、良好的口碑和社会美誉、学校秉承对学生负责、对家长负责、对企业负责、对社会负责的办学理念；以市场需求为意向，以促进就业为目标，致力于培养专业化、技能华、职业化，同时具备良好职业素质和职场适应性的优秀人才。十年耕耘，十年收获。近年来随着办学条件的持续改善，办学规模的不断扩大，办学水平的日益提高。2012年被河北省商务厅认定为“外包人才培训基地”，2013年被秦皇岛市工业和信息化局认定为市级“企业人才培训基地”。</p>
             </div>
         </div>
-        <div class="swiper-slide" style="background-image:url(img/3.jpg)">
+        <div class="swiper-slide">
             <div class="p3">
-                3
+                <h2>会议流程</h2>
             </div>
         </div>
-        <div class="swiper-slide" style="background-image:url(img/4.jpg)">
+        <div class="swiper-slide">
             <div class="p4">
-                4
+                <h2>活动地址</h2>
+
+                <p>详细地址：河北省泊头市解放西路150号</p>
+                <p>联系电话：13131751927</p>
             </div>
         </div>
-        <div class="swiper-slide" style="background-image:url(img/5.jpg)">
+        <div class="swiper-slide">
             <div class="p5">
-                5
+                <h2>诚挚邀请</h2>
+                <input type="text" placeholder="姓名">
+                <input type="text" placeholder="电话">
+                <input type="text" placeholder="公司名称">
+                <input type="text" placeholder="随从人员">
+                <input type="submit">
             </div>
         </div>
     </div>
     <!-- Add Pagination -->
-
+    <!-- Add Arrows -->
+    <div class="swiper-button-prev"></div>
+    <audio id="mp3" src="mp3\7.mp3" autoplay loop></audio>
+    <span id="mp3btn">
+        <img src="img/musicIcon.png" alt="">
+    </span>
 </div>
 
 <!-- Swiper JS -->
 <script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.min.js"></script>
 <!--引入animation JS-->
 <script src="js/swiper.animate1.0.2.min.js"></script>
-
 <!-- Initialize Swiper -->
 <script src="js/script.js"></script>
+
+<!-- Initialize Swiper -->
+
 </body>
 </html>
