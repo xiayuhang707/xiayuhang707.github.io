@@ -1,10 +1,11 @@
 
-/*第一页样式*/
+
 .p1,.p2,.p3,.p4,.p5{
     width: 100%;
     height: 100%;
     background: url("../img/7.gif");
     color:#fff;
+    position:relative;
 }
 #mp3{
     text-align: center;
@@ -38,9 +39,38 @@
 }
 
 
+/*第一页样式*/
+.p1 h1{
+    position: absolute;
+    left: 102px;
+    height: 60px;
+    top: 30px;
+}
+.p1 h1 small{
+    position: absolute;
+    top: 60px;
+    z-index: 100;
+    width: 55px;
+    height: 120px;
+    transform:rotate(30deg);
+}
+.p1 .main img{
+    position: absolute;
+    left: 39px;
+    top: 182px;
+}
 
 
 
+
+
+
+
+
+
+
+
+/*第五页样式*/
 .p5{
 
 }
