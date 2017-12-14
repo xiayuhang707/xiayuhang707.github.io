@@ -111,7 +111,7 @@
     padding-bottom: 4px;
 }
 .p2 .section ul{
-
+    position: relative;
 }
 .p2 .section ul li{
     list-style: none;
@@ -184,3 +184,23 @@
     background-color: #fff;
 }
 
+
+
+@media (max-width: 320px) {
+    .p2 .section{
+
+    }
+    .p2 .section ul li{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .p2 .section{
+
+    }
+}
+@media (max-width: 412px) {
+    .p2 .section ul li{
+
+    }
+}
