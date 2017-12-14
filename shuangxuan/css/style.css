@@ -42,26 +42,62 @@
 /*第一页样式*/
 .p1 h1{
     position: absolute;
-    left: 102px;
+    left: 66px;
     height: 60px;
     top: 30px;
+    letter-spacing: 13px;
+    font-size: 49px;
 }
 .p1 h1 small{
     position: absolute;
-    top: 60px;
+    height: 150px;
+    top: 119px;
+    line-height: 83px;
+    width: 50px;
     z-index: 100;
-    width: 55px;
-    height: 120px;
-    transform:rotate(30deg);
+    left: 90px;
+    font-size: 45px;
+    animation: fun 1s infinite;
+}
+@keyframes fun {
+    0%{
+        color:red;
+    }
+    50%{
+        color:yellow;
+    }
+    100%{
+        color:blue;
+    }
 }
 .p1 .main img{
     position: absolute;
     left: 39px;
     top: 182px;
 }
+/*h2样式*/
+.p2 h2,.p3 h2,.p4 h2,.p5 h2{
+    position: relative;
+    font-size: 34px;
+    letter-spacing: 8px;
+    top: 4%;
+}
 
+/*第二页样式*/
+.p2{
 
-
+}
+.p2 .section{
+    margin-top: 50px;
+    margin-left: 9%;
+    margin-right: 9%;
+    background-color: #272424;
+    text-align: left;
+}
+.p2 .section h3{
+    padding-top: 15px;
+    padding-left: 15px;
+}
 
 
 
