@@ -93,12 +93,17 @@
     margin-right: 9%;
     background-color: #272424;
     text-align: left;
+    padding-bottom: 4px;
 }
 .p2 .section h3{
     padding-top: 15px;
     padding-left: 15px;
 }
-
+.p2 .section p{
+    font-size: 17px;
+    line-height: 26px;
+    padding: 0 15px;
+}
 
 
 
