@@ -188,13 +188,13 @@
 
 @media (max-width: 320px) {
     .p2 .section{
-
+        margin-top: 0;
     }
     .p2 .section ul li{
         padding-top: 10px;
     }
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .p2 .section{
 
     }
