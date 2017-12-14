@@ -190,15 +190,16 @@
 
 }
 @media (min-width: 375px) {
+
+}
+@media (max-width: 412px) {
+
+}
+@media (min-width: 1000px) {
     .p2 .section{
         margin-top: 0;
     }
     .p2 .section ul li{
-        padding-top: 15px;
-    }
-}
-@media (max-width: 412px) {
-    .p2 .section ul li{
-
+        padding-top: 015px;
     }
 }
