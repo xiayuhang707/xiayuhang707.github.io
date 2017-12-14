@@ -42,22 +42,20 @@
 /*第一页样式*/
 .p1 h1{
     position: absolute;
-    left: 66px;
+    left: 49px;
     height: 60px;
-    top: 30px;
+    top: 47px;
     letter-spacing: 13px;
-    font-size: 49px;
+    font-size: 45px;
 }
 .p1 h1 small{
     position: absolute;
-    height: 150px;
-    top: 119px;
-    line-height: 83px;
-    width: 50px;
+    top: 73px;
+    line-height: 70px;
     z-index: 100;
-    left: 90px;
-    font-size: 45px;
-    animation: fun 1s infinite;
+    font-size: 40px;
+    right: 74px;
+    animation: fun 2s infinite;
 }
 @keyframes fun {
     0%{
@@ -73,7 +71,24 @@
 .p1 .main img{
     position: absolute;
     left: 39px;
-    top: 182px;
+    top: 148px;
+}
+.p1 .come{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    text-align: left;
+    top: 38%;
+    padding:20px 0;
+}
+.p1 .come h4{
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.p1 .come p{
+    padding:0 5px;
+    letter-spacing: 1px;
+    line-height: 29px;
 }
 /*h2样式*/
 .p2 h2,.p3 h2,.p4 h2,.p5 h2{
@@ -91,7 +106,7 @@
     margin-top: 50px;
     margin-left: 9%;
     margin-right: 9%;
-    background-color: #272424;
+
     text-align: left;
     padding-bottom: 4px;
 }
@@ -100,14 +115,37 @@
     padding-left: 15px;
 }
 .p2 .section p{
-    font-size: 17px;
+    font-size: 16px;
     line-height: 26px;
     padding: 0 15px;
 }
 
+/*第三页样式*/
+.p3{
 
+}
+.p3 ul{
+    margin-top: 81px;
+    padding-left: 13%;
+    font-size: 20px;
+}
+.p3 ul li{
+    list-style: none;
+    text-align: left;
+    line-height: 50px;
+}
+.p3 ul li s{
+    padding:0 5px;
+}
 
+/*第四页样式*/
+.p4{
 
+}
+.p4 img{
+    margin-top: 73px;
+    margin-bottom: 54px;
+}
 
 
 
@@ -121,4 +159,18 @@
     border: 1px solid #1beccc;
     padding: 15px;
     margin-bottom: 12px;
+    font-size: 18px;
+    margin-top: 10px;
 }
+.p5 input:nth-of-type(1){
+    margin-top: 33px;
+}
+.p5 input:nth-of-type(5){
+    height:59px;
+    font-weight: bold;
+}
+.p5 input:nth-of-type(5):hover{
+    color:#2e3836;
+    background-color: #fff;
+}
+
