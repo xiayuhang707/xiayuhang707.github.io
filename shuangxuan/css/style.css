@@ -1,4 +1,57 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-button-prev{
+    position: absolute;
+    transform: rotate(90deg);
+    left: 46%;
+    bottom: 0;
+    top: 96%;
+    background-size: 20px 44px;
+    animation:btn 1.5s infinite linear;
+}
+@keyframes btn {
+    from{
+        top: 96%;
+        opacity: 1;
+    }
+    to{
+        top: 88%;
+        opacity: 0;
+    }
+}
 
 .p1,.p2,.p3,.p4,.p5{
     width: 100%;

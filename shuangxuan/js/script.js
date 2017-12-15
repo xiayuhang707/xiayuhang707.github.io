@@ -1,5 +1,5 @@
 
-var swiperContainer = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     direction: 'vertical',
     spaceBetween: 30,
@@ -37,3 +37,5 @@ mp3btn.onclick = function () {
         mp3.pause();
     }
 }
+
+

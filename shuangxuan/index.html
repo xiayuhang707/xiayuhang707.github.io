@@ -1,76 +1,19 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
-    <title>Swiper demo</title>
+    <title>双选会</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.css">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <!-- Demo styles -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Demo styles -->
-    <style>
-        html, body {
-            position: relative;
-            height: 100%;
-        }
-        body {
-            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            margin: 0;
-            padding: 0;
-        }
-        .swiper-container {
-            width: 100%;
-            height: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-        }
-        .swiper-button-prev{
-            position: absolute;
-            transform: rotate(90deg);
-            left: 46%;
-            bottom: 0;
-            top: 96%;
-            background-size: 20px 44px;
-            animation:btn 1.5s infinite linear;
-        }
-        @keyframes btn {
-            from{
-                top: 96%;
-                opacity: 1;
-            }
-            to{
-                top: 88%;
-                opacity: 0;
-            }
-        }
-    </style>
 </head>
 <body>
 <!-- Swiper -->
@@ -78,18 +21,20 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="p1">
-                <h1>毕业双选会 <small>邀请函</small></h1>
+                <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">毕业双选会
+                    <small class="ani" swiper-animate-effect="bounce" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">邀请函</small>
+                </h1>
 
                 <div class="come">
-                    <h4>尊敬的用人单位：</h4>
-                    <p>衷心感谢贵单位长期以来对我校的关心与支持。</p>
+                    <h4 class="ani" swiper-animate-effect="bounce" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">尊敬的用人单位：</h4>
+                    <p class="ani" swiper-animate-effect="bounce" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">衷心感谢贵单位长期以来对我校的关心与支持。</p>
                     <p>我校拟于2017年12月23日举办2017届毕业生就业双选会。特向贵单位发出诚挚的邀请，真诚欢迎光临，选聘适用人才！</p>
                 </div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="p2">
-                <h2>大会安排</h2>
+                <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">大会安排</h2>
                 <div class="section">
                     <ul>
                         <li>1.报名时间：2017年12月15日-12月22日。</li>
@@ -98,8 +43,6 @@
                         <li>4.请贵单位自行制作宣传海报。需网站发布信息请提前联系。</li>
                         <li>5.此次招聘会不收取任何费用，食宿自理。</li>
                     </ul>
-                    <!--<h3>办学宗旨:</h3>-->
-                    <!--<p>盛邦升华职业教育成立于2004年，目前已成为整个华北地区办学历史较长、办学规模较大、办学条件较好，办学水平较高的专业IT人才职业教育培训机构。在业内具有广泛的影响、良好的口碑和社会美誉、学校秉承对学生负责、对家长负责、对企业负责、对社会负责的办学理念；以市场需求为意向，以促进就业为目标，致力于培养专业化、技能华、职业化，同时具备良好职业素质和职场适应性的优秀人才。并分别于2012年被河北省商务厅认定为“外包人才培训基地”，2013年被秦皇岛市工业和信息化局认定为市级“企业人才培训基地”。</p>-->
                 </div>
 
             </div>
