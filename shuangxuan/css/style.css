@@ -89,37 +89,24 @@ body {
 }
 #mp3btn img{
     width: 14px;
+    padding-top: 4px;
 }
 
 
 /*第一页样式*/
 .p1 h1{
     position: absolute;
-    left: 49px;
+    left: 86px;
     height: 60px;
     top: 47px;
     letter-spacing: 13px;
-    font-size: 45px;
-}
-.p1 h1 small{
-    position: absolute;
-    top: 73px;
-    line-height: 70px;
-    z-index: 100;
     font-size: 40px;
-    right: 74px;
-    animation: fun 2s infinite;
 }
-@keyframes fun {
-    0%{
-        color:red;
-    }
-    50%{
-        color:yellow;
-    }
-    100%{
-        color:blue;
-    }
+.p1 img{
+    position: absolute;
+    left: 58px;
+    top: 169px;
+    width: 270px;
 }
 .p1 .main img{
     position: absolute;
