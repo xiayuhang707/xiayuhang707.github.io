@@ -136,11 +136,27 @@ body {
     font-size: 34px;
     letter-spacing: 8px;
     top: 4%;
+    background-size: contain;
+    z-index: 222;
+    color:#2719e4;
 }
 
 /*第二页样式*/
-.p2{
-
+.p2 img,.p3 img,.p5 img{
+    width: 84%;
+    height: 107px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 1;
+}
+.p4 img:nth-of-type(1){
+    width: 84%;
+    height: 107px;
+    position: absolute;
+    left: 25px;
+    top: -50px;
+    z-index: 1;
 }
 .p2 .section{
     position: absolute;
