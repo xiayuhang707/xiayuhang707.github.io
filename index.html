@@ -17,17 +17,37 @@
         #app h1{
             margin-top: 50px;
         }
-        #app ul::after{
+        #app .ul li{
+            float: left;
+        }
+        #app .ul::after{
             display: table;
             content: '';
             clear: both;
         }
-        #app ul li{
-            float: left;
+        .ul{
+            margin-left: -20px;
+            margin-top: 50px;
         }
-        #app ul li img{
+        .ul li{
             width: 147px;
-            height: 203px;
+            height: 240;
+            margin-left: 20px;
+        }
+        .ul li img{
+            width: 147px;
+            height: 203px; 
+        }
+        .ul li a{
+            text-align: center;
+            display: inherit;
+            text-decoration: none;
+            padding-top: 10px;
+            letter-spacing: 1px;
+        }
+/*
+        #app ul li img{
+         
             margin-top: 38px;
             margin-bottom: 10px;
             cursor:pointer;
@@ -40,25 +60,29 @@
         #app ul li:nth-of-type(2) a{
             margin-left: 47px;
         }
+        #app ul li:nth-of-type(3) a{
+            margin-left: 47px;
+        }
+*/
 
     </style>
 </head>
 <body>
 <div id="app">
     <h1>Welcome to watch my project display</h1>
-    <ul>
+    <ul class="ul">
         <li>
             <img src="weichangjing/Design sketch/1.jpg" alt="年会邀请函">
-            <a href="weichangjing/index.html"><br>
+            <a href="weichangjing/index.html">
                 年会邀请函
             </a>
         </li>
         <li>
-            <img src="shuangxuan/img/8.gif" alt="双选会"><br>
+            <img src="shuangxuan/img/8.gif" alt="双选会">
             <a href="shuangxuan/index.html">双选会</a>
         </li>
         <li>
-            <img src="shuangxuan/img/8.gif" alt="双选会"><br>
+            <img src="shuangxuan/img/8.gif" alt="双选会">
             <a href="shuangxuan/index.html">双选会</a>
         </li>
     </ul>
