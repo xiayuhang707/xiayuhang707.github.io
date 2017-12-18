@@ -2,88 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>微场景</title>
-<!--
+    <title>项目</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-        }
-        #app{
-            width: 660px;
-            margin:auto;
-            background: url("../img/6");
-        }
-        #app h1{
-            margin-top: 50px;
-        }
-        #app .ul li{
-            float: left;
-        }
-        #app .ul::after{
-            display: table;
-            content: '';
-            clear: both;
-        }
-        .ul{
-            margin-left: -20px;
-            margin-top: 50px;
-        }
-        .ul li{
-            width: 147px;
-            height: 240;
-            margin-left: 20px;
-        }
-        .ul li img{
-            width: 147px;
-            height: 203px; 
-        }
-        .ul li a{
-            text-align: center;
-            display: inherit;
-            text-decoration: none;
-            padding-top: 10px;
-            letter-spacing: 1px;
-        }
-
-    </style>
--->
+    body{
+        background: url("./img/5.gif");
+        background-size:100%;
+    }
+    .tit{
+        margin-top: 70px;
+        margin-bottom: 48px;
+        font-size: 50px;
+    }
+    .thumbnail {
+        display: block;
+        padding: 4px;
+        margin-bottom: 20px;
+        line-height: 1.42857143;
+         background-color: #000;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+    }
+</style>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 <body>
 
-    <h1 class="text-center">Welcome to watch my project display</h1>
-    <div class="container">
-        <div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="..." alt="...">
-    </a>
-  </div>
-  ...
+<h1 class="text-center tit">Welcome to watch my project display</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/wei.png" alt="...">
+                <div class="caption">
+                    <h3>微场景</h3>
+                    <p><a href="weichangjing/index.html" class="btn btn-primary" role="button">微场景</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/yao.png" alt="...">
+                <div class="caption">
+                    <h3>邀请函</h3>
+                    <p><a href="shuangxuan/index.html" class="btn btn-primary" role="button">邀请函</a> </p>
+                </div>
+            </div>
         </div>
     </div>
-    
-    
-    
-    <ul class="ul">
-        <li>
-            <img src="weichangjing/Design sketch/1.jpg" alt="年会邀请函">
-            <a href="weichangjing/index.html">
-                年会邀请函
-            </a>
-        </li>
-        <li>
-            <img src="shuangxuan/img/8.gif" alt="双选会">
-            <a href="shuangxuan/index.html">双选会</a>
-        </li>
-        <li>
-            <img src="shuangxuan/img/8.gif" alt="双选会">
-            <a href="shuangxuan/index.html">双选会</a>
-        </li>
-    </ul>
+</div>
 
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
