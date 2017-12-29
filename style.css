@@ -37,14 +37,19 @@
     background-color: transparent;
 }
 #header .banner{
-    height: 140px;
+    height: 260px;
     margin-top: -20px;
     background-image: url("./img/3.jpg");
     background-size:100%;
 }
+.banner h2{
+    font-size: 38px;
+    padding-top: 47px;
+    letter-spacing: 1px;
+}
 .banner p{
-    font-size: 18px;
-    padding-top: 12px;
+    font-size: 20px;
+    padding-top: 24px;
 }
 
 
