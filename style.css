@@ -1,4 +1,8 @@
-
+.navbar-header{
+    padding-left: 25px;
+    padding-right: 15px;
+    background: #000;
+}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
     background: #000;
@@ -6,13 +10,17 @@
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
-.navbar-header{
-    padding-left: 10px;
-    padding-right: 15px;
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .navbar-default .navbar-brand {
     color: #f3efef;
     font-size: 20px;
+}
+.container-fluid>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -28,3 +36,17 @@
     color: #ccc;
     background-color: transparent;
 }
+#header .banner{
+    height: 140px;
+    margin-top: -20px;
+    background-image: url("./img/3.jpg");
+    background-size:100%;
+}
+.banner p{
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+
+
+
