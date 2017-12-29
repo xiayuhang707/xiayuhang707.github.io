@@ -1,0 +1,30 @@
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-header{
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.navbar-default .navbar-brand {
+    color: #f3efef;
+    font-size: 20px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
