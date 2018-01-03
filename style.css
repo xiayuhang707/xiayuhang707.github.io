@@ -44,8 +44,10 @@
 #header .banner{
     height: 260px;
     margin-top: -20px;
-    background-image: url("./img/3.jpg");
-    background-size:100%;
+    background-image: url("./img/banner.jpg");
+    background-size:cover;
+    background-position:-470px 35px;
+    color:#fff;
 }
 .banner h2{
     font-size: 38px;
