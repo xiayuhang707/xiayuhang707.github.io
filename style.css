@@ -74,21 +74,30 @@
 }
 /*返回顶部*/
 #section .back-to-top{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: #ccc;
     text-align: center;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
     position: fixed;
     bottom: 30%;
     right: 20px;
 }
+#section .back-to-top:hover{
+    background: #8c8888;
+}
 #section .back-to-top a{
     text-decoration: none;
 }
+#section .container .row p{
+    margin-top: 7px;
+}
+
+
+
 
 #footer{
     background: #000;
