@@ -41,6 +41,16 @@
     color: #ccc;
     background-color: transparent;
 }
+
+#header .navbar{
+    position: relative;
+    position: fixed;
+    z-index: 222;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
 #header .banner{
     height: 260px;
     margin-top: -20px;
@@ -51,7 +61,7 @@
 }
 .banner h2{
     font-size: 38px;
-    padding-top: 47px;
+    padding-top: 85px;
     letter-spacing: 1px;
 }
 .banner p{
