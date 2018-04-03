@@ -1,0 +1,252 @@
+li{list-style: none;}
+#header .banner{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.carousel-control.right,.carousel-control.left {
+    height: 400px;
+}
+#header .banner .carousel-caption .h2, h2 {
+    font-size: 30px;
+    padding-bottom: 4%;
+    padding-left: 27%;
+}
+#header .banner .carousel-caption p {
+    margin: 0 0 10px;
+    padding-bottom: 7%;
+    padding-left: 37%;
+    font-size: 16px;
+}
+#header .banner .carousel-caption span{
+    margin-bottom: 60px;
+    padding:10px 15px;
+    color:#0092fa;
+    background: #fff;
+    cursor:pointer;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 76%;
+}
+
+/*main-f部分代码*/
+#main-f{
+    margin-bottom: 80px;
+}
+
+#main-f ul::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+#main-f #box {
+    width: 100%;
+    /*整体的宽度*/
+    height: 338px;
+    /*整体高度*/
+    overflow: hidden;
+    /* 溢出隐藏*/
+    margin: auto;
+}
+
+#main-f #box ul {
+    width: 2000px;
+}
+
+#main-f #box ul li {
+    float: left;
+    padding-right: 6px;
+}
+
+#main-f #box ul li:last-child {
+    padding-right: 0;
+}
+
+#main-f #box ul li a {
+    display: block;
+    width: 88px;
+    /*默认宽度*/
+    height: 338px;
+    /*背景图片高度*/
+    background-size: cover;
+}
+
+#main-f #box ul li .one {
+    background-image: url(../img/11.jpg);
+}
+
+#box ul li .two {
+    background-image: url(../img/12.jpg);
+}
+
+#main-f .col-md-5 h2 small{
+    color:#0e98fa;
+    padding-left: 20px;
+}
+#main-f .col-md-5 p{
+    letter-spacing: 2px;
+    line-height: 26px;
+    padding-left: 3%;
+}
+#main-f .col-md-5 ul{
+    padding-left: 8%;
+}
+#main-f .col-md-5 ul li{
+    float: left;
+    padding:20px 10px;
+}
+#main-f .col-md-5 ul li a{
+    cursor: pointer;
+}
+#main-f .col-md-5 ul::after{
+    display: table;
+    content: '';
+    clear:both;
+}
+/*main-s部分代码*/
+#main-s{
+    margin-bottom: 80px;
+}
+#main-s p{
+    padding-bottom: 10px;
+}
+#main-s .row{
+    margin-left: 4%;
+    margin-top: 30px;
+}
+#main-s .row .col-md-3{
+    border:2px solid #ddd;
+    margin-left: 5%;
+    padding:20px 30px 50px 30px;
+
+}
+#main-s .row h4{
+    font-size: 15px;
+    line-height: 24px;
+}
+#main-s .row p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#b3b3b9;
+}
+#main-s span{
+    padding:5px 8px;
+    border:2px solid #ddd;
+    cursor:pointer;
+}
+#main-s .row .col-md-3:hover{
+    border:2px solid #bab6b6;
+}
+#main-s .row .col-md-3 span:hover{
+    border:2px solid #bab6b6;
+}
+
+/*main-t 部分代码*/
+#main-t{
+
+}
+#main-t h3{
+    margin-left: 50px;
+}
+
+#main-t .row{
+    margin-left: 5%;
+}
+#main-t .row img{
+    width: 100%;
+}
+#main-t .row .col-md-3{
+    margin-left: 1%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+#main-t .row .col-md-3 p{
+    text-align: center;
+    margin-top: 5px;
+}
+#main-t .row .col-md-3 span{
+    display: block;
+    text-align: center;
+}
+
+/*main-d 部分代码*/
+
+#main-d{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#main-d .row img{
+    width: 45%;
+    float: left;
+}
+#main-d .row h4{
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+#main-d .row h4 small{
+    padding-top: 10%;
+    padding-left: 24px;
+}
+
+#main-d .row p{
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+/*main-e部分代码*/
+#main-e{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+#main-e .row img{
+    margin-top: 30px;
+}
+
+
+#footer{
+    background: #1498ef;
+    color:white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#footer .col-md-4 ul li{
+    float: left;
+    margin-left: 10px;
+    cursor:pointer;
+}
+#footer .col-md-4{
+    margin-top: 45px;
+}
+#footer .col-md-4 ul{
+    margin-left: -10px;
+}
+#footer .col-md-4 img{
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#footer .col-md-4 ul::after{
+    display: table;
+    content:'';
+    clear:both;
+}
+#footer small{
+    color:white;
+}
+#footer .col-md-6{
+    margin-left: 10%;
+}
+#footer .col-md-6 input{
+    color:black;
+    width: 30%;
+    margin-top: 15px;
+}
+
+#footer .col-md-6 button{
+    color:black;
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 40%;
+}

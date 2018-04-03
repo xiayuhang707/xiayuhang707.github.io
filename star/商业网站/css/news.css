@@ -1,0 +1,60 @@
+.banner{
+    background: #f2f2f2;
+    margin-top: 40px;
+    padding:15px 0 10px;
+}
+.banner p{
+    font-size: 15px;
+}
+#main{
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+#main h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#main .row .col-md-8 h3{
+    font-size: 20px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+}
+#main .row .col-md-8 span{
+    color:#3a79e8;
+    margin-top: 8px;
+    display: block;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+#main .row .col-md-8 img{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#main .row .col-md-8 p{
+    color:#999;
+}
+
+
+
+
+#main .row .col-md-3 img{
+    width: 100%;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+#main .row .col-md-3 p{
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+

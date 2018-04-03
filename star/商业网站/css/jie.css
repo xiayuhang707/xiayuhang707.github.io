@@ -1,0 +1,33 @@
+.banner{
+    background: #f2f2f2;
+    margin-top: 40px;
+    padding:15px 0 10px;
+}
+.banner p{
+    font-size: 15px;
+}
+#main{
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+#main h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#main img{
+    width: 60%;
+    height: 400px;
+}
+#main p{
+    width: 70%;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+

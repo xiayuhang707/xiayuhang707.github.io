@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>香奈儿</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+</head>
+<body class="list">
+<div class="header">
+    <div class="nav">
+        <h2 class="text-center">CHANEL</h2>
+        <img class="img1" src="img/hhh.png" alt="">
+        <img class="img2" src="img/search.png" alt="">
+        <img class="img3" src="img/lock.png" alt="">
+
+    </div>
+    <div class="banner">
+        <p>香奈儿礼物心愿单
+            <!--<small><img src="img/xia.png" alt=""></small>-->
+        </p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle img" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <img src="img/xia.png" alt="">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#"><b>香奈儿礼物心愿单</b></a></li>
+                <li><a href="#"><b>社交新星</b></a></li>
+                <li><a href="#"><b>绅士格调</b></a></li>
+                <li><a href="#"><b>独爱经典</b></a></li>
+                <li><a href="#"><b>酷女孩</b></a></li>
+                <li><a href="#"><b>好色玩家</b></a></li>
+                <li><a href="#"><b>敢妆敢为</b></a></li>
+                <li><a href="#"><b>随身旅伴</b></a></li>
+                <li role="separator" class="divider"></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <h1 class="text-center">香奈儿礼物心愿单</h1>
+    <p class="text-center">意想不到的节日惊喜</p>
+    <h3 class="text-center">香奈儿礼物心愿单</h3>
+
+    <div class="container">
+        <div id="add">
+            <div class="row">
+                <div v-for="list in addlists" class="col-xs-6">
+                    <a :href="list.href">
+                        <img :src="list.img" :alt="list.text">
+                        <p>{{list.text}}</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+        <img class="text-center" src="img/footer.png" alt="">
+        <h2 class="text-center">细节艺术</h2>
+        <p class="text-center">香奈儿为你的礼物系上色彩。</p>
+        <span>探索</span>
+        <p class="text-center back-to-top">▲返回顶部</p>
+
+    </div>
+    <div class="bottom">
+        <div class="last">
+            <p>实用资讯
+                <small>+</small>
+            </p>
+        </div>
+        <div class="next">
+            <p class="text-center">CHANEL.COM</p>
+        </div>
+        <div class="finish">
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div id="app">
+        <ul>
+            <li v-for="list in lists">{{list.p}}</li>
+            <li class="pp"><img src="img/xi.png" alt=""></li>
+        </ul>
+    </div>
+
+
+</div>
+<script src="https://cdn.bootcss.com/vue/2.5.7/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<!-- JavaScript -->
+<script src="js/main.min.js"></script>
+</body>
+
+</html>

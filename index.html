@@ -2,154 +2,262 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>项目</title>
-
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>梁金炘个人博客</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+    <!--<meta http-equiv="x-ua-compatible" content="ie=edge">-->
+    <link rel="shortcut icon" href="favicon.ico/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/first.css">
 </head>
 <body>
 <div id="header">
-    <nav class="navbar navbar-default text-center">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Web 前端</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
-                    <li><a href="#">在线代码</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">前端库 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">前端库 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">在线代码</a></li>
-
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="banner">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="look">
-                <h2 class="text-center">Look For Less,Do More</h2>
-                <p class="text-center">Welcome to preview a person's website,Update personal works in real time</p>
-            </div>
+            <h2>个人博客</h2>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="study.html">学无止境</a></li>
+                <li><a href="myself.html">关于本人</a></li>
+                <li><a href="contact.html">关于本站</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
 </div>
-
-
-<div id="section">
+<div id="main">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <img src="img/wei.png" alt="...">
-                    <div class="caption">
-                        <p>手机端-微场景</p>
-                        <p><a href="weichangjing/index.html" class="btn btn-primary" role="button">微场景</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <img src="img/yao.png" alt="...">
-                    <div class="caption">
+            <div class="col-md-7">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    </ol>
 
-                        <p>手机端-双选会邀请函</p>
-                        <p><a href="shuangxuan/index.html" class="btn btn-primary" role="button">邀请函</a></p>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/1.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="img/2.jpg" alt="...">
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <img src="img/white.png" alt="...">
-                    <div class="caption">
 
-                        <p>这是一个小游戏</p>
-                        <p><a href="animation/white/index.html" class="btn btn-primary" role="button">别踩白块</a></p>
-                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <img src="img/xuanxiangka.png" alt="...">
-                    <div class="caption">
-                        <p>简单tab切换</p>
-                        <p><a href="animation/选项卡/index.html" class="btn btn-primary" role="button">选项卡</a></p>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <h3 class="text-center"><a href="myself.html">关于我</a></h3>
+                <img src="img/3.jpg" alt="">
+                <p>网名：dancesmile | 金炘</p>
+                <p>职业：Web前端设计师、网页设计</p>
+                <p>微信：18403415428</p>
+                <p>邮箱：1659098863@qq.com</p>
             </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <img src="img/jishi.png" alt="...">
-                    <div class="caption">
-                        <p>这是一个计时器</p>
-                        <p><a href="animation/计时器/index.html" class="btn btn-primary" role="button">计时器</a></p>
+        </div>
+    </div>
+</div>
+
+<div id="main-arcicle">
+    <div class="container">
+        <div class="row">
+            <h3>首页 > <small>最新文章</small></h3>
+            <div class="col-md-10">
+                <div class="accordion">
+                    <div class="title">
+                        <img src="img/4 (1).jpg" alt="">
+                        Web前端知识体系精简
+                    </div>
+                    <div class="content">
+                        Web前端技术由html、css和javascript三大部分构成，是一个庞大而复杂的技术体系，其复杂程度不低于任何一门后端语言;Javascript 基础语法包括：变量声明、数据类型、函数、控制语句、内置对象等。
+
+                        在ES5 中，变量声明有两种方式，分别是  var 和 function ，var
+                        用于声明普通的变量，接收任意类型，function用于声明函数。另外，ES6 新增了 let、const、import 和 class
+                        等四个命令，分别用以声明 普通变量、静态变量、模块 和 类 。
+
+                        JS数据类型共有六种，分别是 String、Number、Boolean、Null、Undefined 和 Object 等
+
+                    </div>
+                    <div class="title">
+                        <img src="img/4 (2).jpg" alt="">
+                        CSS开发中的几个不要
+                    </div>
+                    <div class="content">
+                        <p>1.不要滥用类：在有意义的地方使用ID而不要使用类。这是一个使得浏览器能够更快访问DOM元素的方法。</p>
+                        <p>2.不要把一切都扔进一个CSS文件中：分区CSS使其更易于管理。每一个CSS文件都可以分解成例如header.css、footer.css等逻辑组件。</p>
+                        <p>
+                            3.不要命名选择器为“.red-with-green-dashed-lines”（红绿虚线)：根据页面上的组件命名你的选择器。例如：“header-left”，“content-title”或“content-date”更具描述性。</p>
+                        <p>4.不要忘记注释：注释在CSS中非常重要，可用来理解每个样式如何与其他样式关联以及什么颜色方案适用于哪些组件。</p>
+                    </div>
+                    <div class="title">
+                        <img src="img/4 (3).jpg" alt="">
+                        程序员保持健康的几个秘诀
+                    </div>
+                    <div class="content">
+                        <p>1.锻炼：尽管这可能是最明显的方法，但很多开发人员常常会忘记——或忽略定期的锻炼。没有必要成为下一个铁人，但去进行某种形式的运动有很多好处，将帮助你保持健康，健美，和专注。</p>
+                        <p>
+                            2.睡眠：睡眠这玩意，能让你的身体从前一天劳累的工作中恢复过来并保持健康。在你睡着的时候，大脑也同时在休养生息，并修复在白天受到的损害。有研究表明，充足的睡眠可以显著提高你的注意力，提高你的免疫系统，甚至提高你的记忆力。
+                        </p>
+                        <p>3.平衡：找到生活的平衡并不总是那么容易。如果你有一份严苛的工作，责任一大堆，那么你可能需要很长时间沉溺在工作中。不管你以什么为生，重要的是要找到工作和生活之间的平衡。</p>
+                        <p>
+                            4.饮食：不言而喻，健康的饮食习惯是健康生活的基石。这并不意味着你不能吃快餐，也不意味着你得割舍所有不健康的饮食。你只是需要安排好什么时候吃，以及吃什么。简简单单的举措就可以让世界大不相同。</p>
+                    </div>
+
+                    <div class="title">
+                        <img src="img/12.jpg" alt="">
+                        HTML 和 CSS 代码结构如何写更加规范？
+                    </div>
+                    <div class="content">
+                        <p>1. 非特殊情况下样式文件必须外链至
+                            <head>…</head>
+                            之间;非特殊情况下JavaScript文件必须外链至页面底部;
+                        </p>
+                        <p>css书写规范 1. 编码统一为utf-8;
+                            2. 协作开发及分工: i会根据各个模块, 同时根据页面相似程序, 事先写好大体框架文件, 分配给前端人员实现内部结构&表现&行为; 共用css文件base.css由i书写,
+                            协作开发过程中, 每个页面请务必都要引入, 此文件包含reset及头部底部样式, 此文件不可随意修改;
+                            3. class与id的使用: id是唯一的并是父级的, class是可以重复的并是子级的, 所以id仅使用在大的模块上, class可用在重复使用率高及子级中;
+                            id原则上都是由分发框架文件时命名的（如#header #footer #content #nav 等）, 为JavaScript预留钩子的除外;
+                            4. 为JavaScript预留钩子的命名, 请以 js_ 起始, 比如: js_hide, js_show(淘宝是用的J_开头);
+                            5. class与id命名: 大的框架命名比如header/footer/wrapper/left/right之类的在2中由i统一命名.其他样式名称由 小写英文 & 数字 & _
+                            来组合命名, 如i_comment, fontred, width200; 避免使用中文拼音, 尽量使用简易的单词组合; 总之, 命名要语义化, 简明化.
+                            6. 规避class与id命名(此条重要, 若有不明白请及时与i沟通):
+                            a） 通过从属写法规避, 示例见d;
+                            b）取父级元素id/class命名部分命名, 示例见d;
+                            c）重复使用率高的命名, 请以自己代号加下划线起始, 比如i_clear;
+                        </p>
+
+                        <p>3. 特殊符号使用: 尽可能使用代码替代: 比如 <(<) & >(&gt;) & 空格( ) & »(») 等等;</p>
+                        <p>4. 能以背景形式呈现的图片, 尽量写入css样式中;
+                        </p>
+                        <p>5. 重要图片必须加上alt属性; 给重要的元素和截断的元素加上title;</p>
+
+
+                    </div>
+                    <div class="title">
+                        <img src="img/5.jpg" alt="">
+                        行自己的人生，做最好的自己
+                    </div>
+                    <div class="content">
+                        <p>做人，简单就好；生活，宁静就好。</p>
+                        <p>真正重要的不是生命里的岁月，而是岁月中的生活。</p>
+                        <p>人生，是一场盛大的遇见。若你懂得，就请珍惜。</p>
+                        <p>眼睛，不应该用来为伤害你的人哭泣，而应该用来寻找那个正确的人。</p>
+                        <p>如果你不喜欢某件事，就改变它；如果你不能改变它，就改变你的态度。不要抱怨。</p>
+                        <p>生命必须有裂缝，阳光才能照进来。</p>
+                        <p>如不是我变了模样，便是你淡忘了时光。</p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="back-to-top">
-        <a href="#">↑</a>
-        <!--<button type="button" class="btn btn-default" aria-label="Left Align">-->
-            <!--<span class="glyphicon glyphicon-glyphicon-arrow-up" aria-hidden="true"></span>-->
-        <!--</button>-->
+</div>
+
+<div id="main-list">
+    <div class="container">
+        <div class="row">
+            <h3>首页 > <small>前端--小知识</small></h3>
+            <div class="col-md-10">
+                <div class="accordion">
+                <div class="title">
+                    <img src="img/6.jpg" alt="">
+                    几点设计小建议
+                </div>
+                <div class="content">
+                    <p>1.尽量使用单列而不是多列布局 </p>
+                    <p>2.合并重复的功能而使界面简洁</p>
+                    <p>3. 将不同区域的颜色区分出来</p>
+                    <p>4.界面要有鲜明对比,让人容易区分</p>
+                    <p>5.把界面做得环环相扣要好过直白的排版</p>
+                    <p>6.让界面平滑显示而不要死板地呈现</p>
+                    <p> 7.过多边框会让界面四分五裂</p>
+                    <p>8.具有层次的图形化展示优于直白的文字描述</p>
+                    <p> 9.优化页面加载速度，不要让用户等太久</p>
+                </div>
+
+                    <div class="title">
+                        <img src="img/7.jpg" alt="">
+                        学习之前首先要大概了解什么是HTML ,CSS , JS：
+                    </div>
+                    <div class="content">
+                        <p>HTML是由多种骨头(标签)组成的骨架。</p>
+                        <p> HTML5是更多的新骨头(标签),同时去掉了以前觉得不好用的骨头.</p>
+                        <p>CSS是皮肤。CSS3是更美的皮肤</p>
+                        <p>JS控制单个动作。(抬手,张嘴,放下手,抬腿,转头,握拳等)</p>
+                        <p>jQuery是把一组常用动作编排成了一个招式。</p>
+
+                    </div>
+
+                    <div class="title">
+                        <img src="img/8.jpg" alt="">
+                        Web前端中的一些元素
+                    </div>
+                    <div class="content">
+                        <img src="img/36.png" alt="">
+
+                    </div>
+
+                    <div class="title">
+                        <img src="img/6.jpg" alt="">
+                        Web前端mata标签
+                    </div>
+                    <div class="content">
+                        <img src="img/37.png" alt="">
+                    </div>
+
+                    <div class="title">
+                        <img src="img/7.jpg" alt="">
+                        Web前端知识体系精简
+                    </div>
+                    <div class="content">
+                        Web前端技术由html、css和javascript三大部分构成，是一个庞大而复杂的技术体系，其复杂程度不低于任何一门后端语言
+
+                    </div>
+
+                    <div class="title">
+                        <img src="img/11.jpg" alt="">
+                        Web前端知识体系精简
+                    </div>
+                    <div class="content">
+                        Web前端技术由html、css和javascript三大部分构成，是一个庞大而复杂的技术体系，其复杂程度不低于任何一门后端语言
+
+                    </div>
+
+
+            </div>
+        </div>
     </div>
 </div>
+
+
+<div id="back-to-top">
+    <a href="#">
+        <img src="img/pic.png">
+    </a>
+</div>
+
 
 <div id="footer">
     <div class="container">
-        <ul class="foot text-center">
-            <li>版权声明        在线反馈</li>
-            <li>xiayuhang707.github个人实时预览仓库</li>
-        </ul>
+        <p class="text-center">Copyright © WEB前端技术分享博客 Theme by 梁金炘 --></p>
+        <p class="text-center">WEB前端技术交流qq：748882429</p>
     </div>
 </div>
-<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

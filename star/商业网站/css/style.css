@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+#header{
+    margin-top: 50px;
+}
+#header .logo img{
+    float: left;
+    width: 20%;
+}
+.nav ul{
+    width: 60%;
+    float: right;
+}
+.nav ul li{
+    float: left;
+    padding-top: 15px;
+}
+.nav ul li a{
+    color:black;
+    font-size: 15px;
+    padding: 10px;
+}
+.nav ul li a:hover{
+    color:blue;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,41 @@
+/*!
+ * shengbangshenghua
+*/
+* {
+  margin: 0;
+  padding: 0; }
+
+ul::after {
+  clear: both;
+  display: table;
+  content: ""; }
+
+.box {
+  overflow: hidden;
+  width: 642px;
+  height: 200px; }
+  .box ul {
+    width: 1000px; }
+  .box li {
+    float: left;
+    list-style: none;
+    padding-right: 2px; }
+  .box a {
+    background: url("../img/abstract.jpg");
+    width: 320px;
+    height: 200px;
+    display: block; }
+  .box .one {
+    background: url("../img/abstract.jpg"); }
+  .box .two {
+    background: url("../img/landscapes.jpg"); }
+  .box .three {
+    background: url("../img/nature.jpg"); }
+  .box .four {
+    background: url("../img/people.jpg"); }
+  .box .five {
+    background: url("../img/urban.jpg"); }
+  .box .one, .box .two, .box .three, .box .four {
+    width: 78px; }
+  .box .five {
+    min-width: 320px; }

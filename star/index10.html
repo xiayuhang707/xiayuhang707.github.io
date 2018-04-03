@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日期:</title>
+</head>
+<body>
+<div id="copy"></div>
+<h1>当前的年月日时分秒：</h1>
+<script>
+    setInterval(function(){
+        var now=new Date();//当前时间（年、月、日）
+        console.log(now);
+
+        var year=now.getFullYear();//获取年
+        console.log(year);
+
+        var month=now.getMonth();//获取月
+        console.log(month+1);
+
+        var date=now.getDate();//获取日
+        console.log(date);
+
+        var time=now.getMinutes();//获取分钟
+        console.log(time);
+
+        var hour=now.getHours();
+
+        var s=now.getSeconds();
+        h1.innerHTML=year+"-"+(month+1)+"-"+date+"  "+hour+":"+time+"： "+s;
+    });
+
+    var h1=document.querySelector("h1");
+
+
+
+
+
+
+</script>
+</body>
+</html>

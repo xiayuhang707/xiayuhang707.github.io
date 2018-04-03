@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>香奈儿</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+</head>
+<body class="shop">
+<div class="header">
+    <div class="nav">
+        <h2 class="text-center">CHANEL</h2>
+        <img class="img1" src="img/hhh.png" alt="">
+        <img class="img2" src="img/search.png" alt="">
+        <img class="img3" src="img/lock.png" alt="">
+
+    </div>
+    <div class="banner">
+        <p>香奈儿礼物心愿单
+            <small><img src="img/xia.png" alt=""></small>
+        </p>
+    </div>
+</div>
+
+<div class="section">
+
+    <h1 class="text-center">绅士格调</h1>
+    <p class="text-center">100%优雅知性的礼物</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="details.html">
+                    <img src="img/21.jpg" alt="">
+                    <h3 class="text-center">BLEU DE CHANEL</h3>
+                </a>
+
+                <p class="text-center">香奈儿蔚蓝男士香水</p>
+                <p class="text-center th2">￥1,095.00</p>
+                <a href="details.html">
+                    <span class="text-center">立即购买</span>
+                </a>
+            </div>
+            <div id="adc">
+                <div v-for="list in lists" class="col-xs-6">
+                    <img :src="list.img" alt="">
+                    <h3 class="text-center">{{list.h3}}</h3>
+                    <p class="text-center th1">{{list.p}}</p>
+                    <p class="text-center th2">{{list.th}}</p>
+                    <span>{{list.span}}</span>
+                </div>
+                <!--<div class="col-xs-6">-->
+                    <!--<img src="img/31.jpg" alt="">-->
+                    <!--<h3 class="text-center">BLEU DE CHANEL</h3>-->
+                    <!--<p class="text-center th1">香奈儿蔚蓝男士香水</p>-->
+                    <!--<p class="text-center th2">￥1,095.00</p>-->
+                    <!--<span>立即购买</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-6">-->
+                    <!--<img src="img/33.jpg" alt="">-->
+                    <!--<h3 class="text-center">BLEU DE CHANEL</h3>-->
+                    <!--<p class="text-center th1">香奈儿蔚蓝男士香水</p>-->
+                    <!--<p class="text-center th2">￥1,095.00</p>-->
+                    <!--<span>立即购买</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-6">-->
+                    <!--<img src="img/34.jpg" alt="">-->
+                    <!--<h3 class="text-center">BLEU DE CHANEL</h3>-->
+                    <!--<p class="text-center th1">香奈儿蔚蓝男士香水</p>-->
+                    <!--<p class="text-center th2">￥1,095.00</p>-->
+                    <!--<span>立即购买</span>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="middle">
+        <img class="text-center" src="img/footer.png" alt="">
+        <h2 class="text-center">细节艺术</h2>
+        <p class="text-center">香奈儿为你的礼物系上色彩。</p>
+        <span>探索</span>
+        <p class="text-center back-to-top">▲返回顶部</p>
+
+    </div>
+    <div class="bottom">
+        <div class="last">
+            <p>实用资讯
+                <small>+</small>
+            </p>
+        </div>
+        <div class="next">
+            <p class="text-center">CHANEL.COM</p>
+        </div>
+        <div class="finish">
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <ul>
+        <li>香水</li>
+        <li>彩妆</li>
+        <li>护肤品</li>
+        <li>我的账户</li>
+    </ul>
+
+</div>
+<script src="https://cdn.bootcss.com/vue/2.5.7/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<!-- JavaScript -->
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
