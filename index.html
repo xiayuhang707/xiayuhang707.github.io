@@ -6,10 +6,57 @@
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
     <!--<meta http-equiv="x-ua-compatible" content="ie=edge">-->
     <link rel="shortcut icon" href="favicon.ico/">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">-->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/first.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .dowebok {
+            font-family: "Microsoft Yahei";
+        }
+
+        .dowebok h1 {
+            margin: 60px 0 30px;
+            font-size: 60px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .dowebok-explain {
+            margin-bottom: 80px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .dowebok .list {
+            width: 1064px;
+            margin: 0 auto;
+            overflow: hidden;
+            zoom: 1;
+        }
+
+        .dowebok .list ul {
+            float: left;
+            width: 246px;
+            margin: 0 10px;
+            list-style-type: none;
+        }
+
+        .dowebok .list li {
+            margin-bottom: 20px;
+        }
+
+        .dowebok .list img {
+            width: 100%;
+            border-radius: 5px;
+            vertical-align: top;
+        }
+    </style>
 </head>
 <body>
 <div id="header">
@@ -77,7 +124,7 @@
             </h3>
             <div class="col-md-10">
                 <div class="accordion">
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/4 (1).jpg" alt="">
                         Web前端知识体系精简
                     </div>
@@ -92,7 +139,7 @@
                         JS数据类型共有六种，分别是 String、Number、Boolean、Null、Undefined 和 Object 等
 
                     </div>
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/4 (2).jpg" alt="">
                         CSS开发中的几个不要
                     </div>
@@ -103,7 +150,7 @@
                             3.不要命名选择器为“.red-with-green-dashed-lines”（红绿虚线)：根据页面上的组件命名你的选择器。例如：“header-left”，“content-title”或“content-date”更具描述性。</p>
                         <p>4.不要忘记注释：注释在CSS中非常重要，可用来理解每个样式如何与其他样式关联以及什么颜色方案适用于哪些组件。</p>
                     </div>
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/4 (3).jpg" alt="">
                         程序员保持健康的几个秘诀
                     </div>
@@ -117,7 +164,7 @@
                             4.饮食：不言而喻，健康的饮食习惯是健康生活的基石。这并不意味着你不能吃快餐，也不意味着你得割舍所有不健康的饮食。你只是需要安排好什么时候吃，以及吃什么。简简单单的举措就可以让世界大不相同。</p>
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/12.jpg" alt="">
                         HTML 和 CSS 代码结构如何写更加规范？
                     </div>
@@ -147,7 +194,7 @@
 
 
                     </div>
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/5.jpg" alt="">
                         行自己的人生，做最好的自己
                     </div>
@@ -175,7 +222,7 @@
             </h3>
             <div class="col-md-10">
                 <div class="accordion">
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/6.jpg" alt="">
                         几点设计小建议
                     </div>
@@ -191,7 +238,7 @@
                         <p> 9.优化页面加载速度，不要让用户等太久</p>
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/7.jpg" alt="">
                         学习之前首先要大概了解什么是HTML ,CSS , JS：
                     </div>
@@ -204,7 +251,7 @@
 
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/8.jpg" alt="">
                         Web前端中的一些元素
                     </div>
@@ -213,7 +260,7 @@
 
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/6.jpg" alt="">
                         Web前端mata标签
                     </div>
@@ -221,7 +268,7 @@
                         <img src="img/37.png" alt="">
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/7.jpg" alt="">
                         一名合格的前端工程师的知识结构是怎样的
                     </div>
@@ -234,14 +281,15 @@
                         <p>【6】在5的基础上开始费劲脑汁的去寻思怎么能把开发效率也提升上来</p>
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-scroll-reveal="enter bottom over 1s and move 100px">
                         <img src="img/11.jpg" alt="">
                         与前端有关的一些网站
                     </div>
                     <div class="content">
-                        <p><a href="http://www.ferecord.com">前端知识点--http://www.ferecord.com</a></p>
-                        <p><a href="http://www.bitbug.net">制作icon图标--http://www.bitbug.net/</a></p>
-                        <p><a href="http://www.jq22.com/daima">Jquery--http://www.jq22.com/daima</a></p>
+                        <p>前端知识点--<a href="http://www.ferecord.com">http://www.ferecord.com</a></p>
+                        <p>制作icon图标--<a href="http://www.bitbug.net">http://www.bitbug.net/</a></p>
+                        <p>Jquery--<a href="http://www.jq22.com/daima">http://www.jq22.com/daima</a></p>
+                        <p>代码:<a href="http://www.dowebok.com">：http://www.dowebok.com</a></p>
                     </div>
 
 
@@ -265,9 +313,19 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>-->
     <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://cdn.dowebok.com/134/js/scrollReveal.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            (function () {
+                window.scrollReveal = new scrollReveal({reset: true});
+            })();
+        }
+        ;
+    </script>
 </body>
 </html>

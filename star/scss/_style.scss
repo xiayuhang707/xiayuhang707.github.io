@@ -1,0 +1,35 @@
+*{  margin: 0;  padding: 0;}
+ul::after{
+    
+  clear:both;
+  display: table;
+  content:"";
+}
+.box {
+  overflow: hidden;
+  width: 642px;
+  height:200px;
+  ul{
+    width: 1000px;
+  }
+  li{    float: left; list-style: none; padding-right:2px; }
+  a{
+    background:url('../img/abstract.jpg');
+    width: 320px;
+    height: 200px;
+    display: block;
+  }
+  .one{background:url('../img/abstract.jpg');} //第一张图
+  .two{background:url('../img/landscapes.jpg');} //第二张图
+  .three{background:url('../img/nature.jpg');}
+  .four{background:url('../img/people.jpg');}
+  .five{background:url('../img/urban.jpg');}
+
+  .one,  .two,  .three,  .four {    width: 78px;  } //第1 2 3 4 张图片默认宽度为78像素
+
+  .five{min-width:320px;}
+
+  //.five{    min-width: 320px;  }
+}
+
+
