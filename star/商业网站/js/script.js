@@ -8,7 +8,7 @@ dv.onblur=function(){
         span1.style.color="red"
         return false;
     }else{
-        span1.innerHTML="(正确)"
+        span1.innerHTML=""
         span1.style.color="#000"
     }
     if(dv.value.length<4){
@@ -17,6 +17,7 @@ dv.onblur=function(){
         return false
     }
     if(!isNaN(dv.value)){
+        //isNaN就是判断是否为一个数字
         span1.innerHTML="(用户名不能是纯数字)"
         span1.style.color="red"
         return false

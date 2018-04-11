@@ -179,6 +179,7 @@ body {
 .s1 .footer img:nth-of-type(2){
     left:-80px;
     animation:funa 1s infinite alternate;
+    /*infinite 无限； alternate 交替，轮流；linear 直线的*/
     animation-timing-function: linear;
 }
 @keyframes funa {

@@ -6,6 +6,7 @@ $(function(){
     $(function () {
         $(window).scroll(function(){
             if ($(window).scrollTop()>500){
+                //页面的垂直偏移量
                 $("#back-to-top").fadeIn();
             }
             else
@@ -17,10 +18,10 @@ $(function(){
         $("#back-to-top").click(function(){
             //$('body,html').animate({scrollTop:0},1000);
             if ($('html').scrollTop()) {
-                $('html').animate({ scrollTop: 0 }, 2000);
+                $('html').animate({ scrollTop: 0 }, 1500);
                 return false;
             }
-            $('body').animate({ scrollTop: 0 }, 2000);
+            $('body').animate({ scrollTop: 0 }, 1500);
             return false;
         });
     });
@@ -41,6 +42,8 @@ $(function(){
 //手风琴效果
 $(".title").click(function(){
     $(this).next().slideToggle(500).show();
+
+    //toggle是判断，当前如果为收起的就展开，展开的则收起
 })
 
 
